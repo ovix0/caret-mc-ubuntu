@@ -8,3 +8,4 @@ RUN apt-get -y install mc
 RUN apt-get -y install node.js
 RUN apt-get -y install npm 
 RUN npm install -g gulp bower
+RUN ls -l
